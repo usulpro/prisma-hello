@@ -1,0 +1,18 @@
+{
+  "name": "prisma-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "prisma deploy && prisma generate",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^0.13.2",
+    "prisma-client-lib": "^1.17.1"
+  }
+}
